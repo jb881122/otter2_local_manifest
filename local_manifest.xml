@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="kernel/amazon/otter-common" name="LineageOS/android_kernel_amazon_otter-common" revision="cm-12.1" />
+  <project path="device/amazon/omap4-common" name="jb881122/android_device_amazon_omap4-common" revision="cm-12.1" />
+  <project path="device/amazon/otter-common" name="jb881122/android_device_amazon_otter-common" revision="cm-12.1" />
+  <project path="device/amazon/otter2" name="jb881122/android_device_amazon_otter2" revision="cm-12.1" />
+  <project path="vendor/amazon" name="TheMuppets/proprietary_vendor_amazon" revision="cm-12.1" />
+</manifest>
