@@ -4,6 +4,10 @@
   <!-- Fixes in other places -->
   <remove-project name="LineageOS/android_hardware_ti_omap4" />
   <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" revision="cm-13.0" />
+  <remove-project name="LineageOS/android_build" />
+  <project path="build" name="jb881122/android_build" revision="cm-13.0">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 
   <!-- Common to early Kindle Fires -->
   <project path="kernel/amazon/otter-common" name="jb881122/android_kernel_amazon_otter-common" revision="cm-13.0-testing" />
