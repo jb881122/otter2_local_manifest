@@ -10,12 +10,12 @@
   </project>
 
   <!-- Common to early Kindle Fires -->
-  <project path="kernel/amazon/otter-common" name="jb881122/android_kernel_amazon_otter-common" revision="cm-13.0-testing" />
-  <project path="device/amazon/omap4-common" name="jb881122/android_device_amazon_omap4-common" revision="cm-13.0-testing" />
-  <project path="device/amazon/otter-common" name="jb881122/android_device_amazon_otter-common" revision="cm-13.0-testing" />
+  <project path="kernel/amazon/otter-common" name="jb881122/android_kernel_amazon_otter-common" revision="cm-13.0" />
+  <project path="device/amazon/omap4-common" name="jb881122/android_device_amazon_omap4-common" revision="cm-13.0" />
+  <project path="device/amazon/otter-common" name="jb881122/android_device_amazon_otter-common" revision="cm-13.0" />
   <project path="vendor/amazon" name="jb881122/proprietary_vendor_amazon" revision="cm-13.0" />
 
   <!-- Kindle Fire 2 -->
-  <project path="device/amazon/otter2" name="jb881122/android_device_amazon_otter2" revision="cm-13.0-testing" />
+  <project path="device/amazon/otter2" name="jb881122/android_device_amazon_otter2" revision="cm-13.0" />
 
 </manifest>
