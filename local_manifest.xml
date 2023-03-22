@@ -2,8 +2,6 @@
 <manifest>
 
   <!-- Fixes in other places -->
-  <remove-project name="LineageOS/android_hardware_ti_omap4" />
-  <project path="hardware/ti/omap4" name="jb881122/android_hardware_ti_omap4" revision="cm-13.0" />
   <remove-project name="LineageOS/android_build" />
   <project path="build" name="jb881122/android_build" revision="cm-13.0">
     <copyfile src="core/root.mk" dest="Makefile" />
